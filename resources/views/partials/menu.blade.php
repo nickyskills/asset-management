@@ -82,16 +82,7 @@
                                 </a>
                             </li>
                         @endcan
-                        @can('income_category_access')
-                            <li class="{{ request()->is('admin/income-categories') || request()->is('admin/income-categories/*') ? 'active' : '' }}">
-                                <a href="{{ route("admin.income-categories.index") }}">
-                                    <i class="fa-fw fas fa-list">
 
-                                    </i>
-                                    <span>{{ trans('cruds.incomeCategory.title') }}</span>
-                                </a>
-                            </li>
-                        @endcan
                         @can('expense_access')
                             <li class="{{ request()->is('admin/expenses') || request()->is('admin/expenses/*') ? 'active' : '' }}">
                                 <a href="{{ route("admin.expenses.index") }}">
@@ -102,16 +93,7 @@
                                 </a>
                             </li>
                         @endcan
-                        @can('income_access')
-                            <li class="{{ request()->is('admin/incomes') || request()->is('admin/incomes/*') ? 'active' : '' }}">
-                                <a href="{{ route("admin.incomes.index") }}">
-                                    <i class="fa-fw fas fa-arrow-circle-right">
 
-                                    </i>
-                                    <span>{{ trans('cruds.income.title') }}</span>
-                                </a>
-                            </li>
-                        @endcan
                         @can('expense_report_access')
                             <li class="{{ request()->is('admin/expense-reports') || request()->is('admin/expense-reports/*') ? 'active' : '' }}">
                                 <a href="{{ route("admin.expense-reports.index") }}">

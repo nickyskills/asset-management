@@ -197,7 +197,7 @@ return [
     ],
     'branch'            => [
         'title'          => 'Branches',
-        'title_singular' => 'Branch',
+        'title_singular' => 'Branche',
         'fields'         => [
             'id'                    => 'ID',
             'id_helper'             => '',
@@ -220,8 +220,8 @@ return [
         ],
     ],
     'department'        => [
-        'title'          => 'Departments',
-        'title_singular' => 'Department',
+        'title'          => 'Départments',
+        'title_singular' => 'Département',
         'fields'         => [
             'id'                 => 'ID',
             'id_helper'          => '',
@@ -238,8 +238,8 @@ return [
         ],
     ],
     'employee'          => [
-        'title'          => 'Employee',
-        'title_singular' => 'Employee',
+        'title'          => 'Employé',
+        'title_singular' => 'Employé',
         'fields'         => [
             'id'                     => 'ID',
             'id_helper'              => '',
@@ -266,8 +266,8 @@ return [
         ],
     ],
     'cartegory'         => [
-        'title'          => 'Cartegory',
-        'title_singular' => 'Cartegory',
+        'title'          => 'catégorie',
+        'title_singular' => 'catégorie',
         'fields'         => [
             'id'                 => 'ID',
             'id_helper'          => '',
